@@ -10,12 +10,10 @@
  */
 int main(int __attribute((unused)) argc, char **argv)
 {
-	if (argv)
-	{
-		printf("%s\n", argv[0]);
+	int arg;
 
-		argv++;
-	}
+	for (arg = 0; arg < argc; arg++)
+		printf("%s\n", argv[arg]);
 
 	return (0);
 }
