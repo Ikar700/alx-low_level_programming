@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * main -  multiplies two numbers
- * prints the result followed ny a new line
- * @n: first number ot be multiplied
- * @x: secomd number to be multiplied
+ * main - Prints the multiplication of two numbers, followed by a new line.
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
  *
- * Return: Always 0
+ * Return: If the program receives two arguments - 0.
+ *         If the program does not receive two arguments - 1
  */
 int main(int argc, char *argv[])
 {
