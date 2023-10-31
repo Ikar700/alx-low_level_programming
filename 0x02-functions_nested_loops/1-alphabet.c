@@ -7,6 +7,13 @@
  */
 void print_alphabet(void)
 {
-	_putchar('abcdefghijklmnopqrstuvwxyz');
+	char O = ('a');
+
+	while  (O <= 'z')
+	{
+		_putchar(O);
+		O++;
+	}
+
 	_putchar('\n');
 }
